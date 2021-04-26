@@ -43,13 +43,47 @@
 		</div>
 	</header>
 
+<style>
+</style>
+
 	<div class="contents-wrap">
-		<ul>
-			<li>클랜내 대항전</li>
-		</ul>
+		<h3 class="main-h3">※ 팁</h3>
+		<dl class="main-dl">
+			<dt>장비강화 필요 강화석 & 골드</dt>
+			<dd>
+				<a href="https://cafe.naver.com/birdiecrush/9931" target="_blank">공식카페 새창</a>
+			</dd>
+			<dt>TEST 1</dt>
+			<dd>
+				TEST 1
+			</dd>
+		</dl>
+
+		<h3 class="main-h3">※ 클랜 대항전</h3>
+		<dl class="main-dl">
+			<dt>4월 4주차(2021.04.26 ~ 2021.04.30)</dt>
+			<dd>
+				맵 : 몬스터비치맵 3라운드 1Tee 바람중 홀컵중 템X 캡슐X <br>
+				참여 클랜원(8명) : 풋슨, 효순이, 어린장미, 김독자컴퍼니, AY골퍼, 미러팡, 언제나행운, 데빌<br><br>
+				<a href="http://www.phoenixdarts.com/kr/easyBracket/step?tn_id=16090#step4" target="_blank">대진표 새창</a>
+			</dd>
+		</dl>
 	</div>
 
 </div><!-- #wrap -->
+
+<script>
+$(document).ready(function() {
+	$(".main-dl dt").on("click", function() {
+		$(this).toggleClass("on");
+		if($(this).hasClass("on")) {
+			$(this).next("dd").show();
+		} else {
+			$(this).next("dd").hide();
+		}
+	});
+});
+</script>
 
 
 </body>

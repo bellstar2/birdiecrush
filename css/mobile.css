@@ -37,6 +37,41 @@ header img {
 }
 
 
+.main-h3 {
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+.main-dl {
+	margin-top: 0.75rem;
+	color: #530000;
+}
+.main-dl a {
+	font-size: 1.75rem;
+	color: blue;
+}
+.main-dl dt {
+	font-size: 1.75rem;
+	font-weight: bold;
+	padding: 1rem 0.5rem;
+	border-bottom: solid 1px #202124;
+}
+.main-dl dt.on {
+	border-bottom: none;
+	background-color: #ffeeee;
+}
+.main-dl dt:hover {
+	background-color: #ffeeee;
+	cursor: pointer;
+}
+.main-dl dd {
+	display: none;
+	font-size: 1.5rem;
+	background-color: #ffeeee;
+	border-bottom: solid 1px #202124;
+	padding: 0.5rem 0.5rem 3rem 0.5rem;
+}
+
+
 @media screen and (max-width: 768px) and (orientation: portrait) {
 	html, body {
 		font-size: 16px;
